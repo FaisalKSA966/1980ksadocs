@@ -12,6 +12,68 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  
+  // Meta tags for social media embeds
+  headTags: [
+    // Open Graph / Facebook
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:type',
+        content: 'website',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image',
+        content: 'https://docs.ksa1980.lol/img/social-card.png',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:alt',
+        content: '1980 - نظام إدارة التذاكر',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:width',
+        content: '1200',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        property: 'og:image:height',
+        content: '630',
+      },
+    },
+    // Twitter
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:image',
+        content: 'https://docs.ksa1980.lol/img/social-card.png',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:image:alt',
+        content: '1980 - نظام إدارة التذاكر',
+      },
+    },
+  ],
 
   // GitHub pages deployment config
   organizationName: '1980',
