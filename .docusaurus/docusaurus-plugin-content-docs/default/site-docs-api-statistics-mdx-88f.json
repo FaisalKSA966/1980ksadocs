@@ -1,0 +1,25 @@
+{
+  "id": "api/statistics",
+  "title": "إحصائيات",
+  "description": "API الإحصائيات المتقدم",
+  "source": "@site/docs/api/statistics.mdx",
+  "sourceDirName": "api",
+  "slug": "/api/statistics",
+  "permalink": "/api/statistics",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "إحصائيات"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "API التذاكر",
+    "permalink": "/api/tickets"
+  },
+  "next": {
+    "title": "المزامنة",
+    "permalink": "/api/sync"
+  }
+}

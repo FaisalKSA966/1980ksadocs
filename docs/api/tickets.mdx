@@ -1,0 +1,209 @@
+---
+title: API التذاكر
+---
+
+## نقاط النهاية للتذاكر
+
+### 📋 جلب التذاكر
+```http
+GET /api/tickets
+```
+
+**المعاملات:**
+- `status` - فلترة حسب الحالة (open, closed, pending)
+- `priority` - فلترة حسب الأولوية (low, medium, high, urgent)
+- `assignee` - فلترة حسب المسؤول
+- `date_from` - تاريخ البداية
+- `date_to` - تاريخ النهاية
+- `limit` - عدد النتائج (افتراضي: 50)
+- `offset` - إزاحة النتائج
+
+**مثال:**
+```javascript
+const tickets = await fetch('/api/tickets?status=open&priority=high&limit=20', {
+  headers: { 'Authorization': 'Bearer YOUR_TOKEN' }
+});
+```
+
+### ➕ إنشاء تذكرة جديدة
+```http
+POST /api/tickets
+```
+
+**المحتوى:**
+```json
+{
+  "title": "عنوان التذكرة",
+  "description": "وصف المشكلة",
+  "priority": "medium",
+  "category": "technical",
+  "user_id": "123456789"
+}
+```
+
+**مثال:**
+```javascript
+const newTicket = await fetch('/api/tickets', {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer YOUR_TOKEN',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    title: 'مشكلة في النظام',
+    description: 'وصف مفصل للمشكلة',
+    priority: 'high',
+    category: 'technical'
+  })
+});
+```
+
+### 🔍 جلب تذكرة محددة
+```http
+GET /api/tickets/:id
+```
+
+**مثال:**
+```javascript
+const ticket = await fetch('/api/tickets/123', {
+  headers: { 'Authorization': 'Bearer YOUR_TOKEN' }
+});
+```
+
+### ✏️ تحديث تذكرة
+```http
+PATCH /api/tickets/:id
+```
+
+**المحتوى:**
+```json
+{
+  "status": "closed",
+  "priority": "low",
+  "assignee": "user_id",
+  "notes": "ملاحظات إضافية"
+}
+```
+
+**مثال:**
+```javascript
+const updatedTicket = await fetch('/api/tickets/123', {
+  method: 'PATCH',
+  headers: {
+    'Authorization': 'Bearer YOUR_TOKEN',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    status: 'closed',
+    notes: 'تم حل المشكلة'
+  })
+});
+```
+
+### 🗑️ حذف تذكرة
+```http
+DELETE /api/tickets/:id
+```
+
+**مثال:**
+```javascript
+const deleted = await fetch('/api/tickets/123', {
+  method: 'DELETE',
+  headers: { 'Authorization': 'Bearer YOUR_TOKEN' }
+});
+```
+
+## هيكل البيانات
+
+### نموذج التذكرة
+```json
+{
+  "id": "123",
+  "title": "عنوان التذكرة",
+  "description": "وصف المشكلة",
+  "status": "open",
+  "priority": "medium",
+  "category": "technical",
+  "user_id": "123456789",
+  "assignee": "987654321",
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-01T00:00:00Z",
+  "closed_at": null,
+  "notes": "ملاحظات إضافية",
+  "rating": 5,
+  "messages": [
+    {
+      "id": "msg_1",
+      "content": "محتوى الرسالة",
+      "author": "123456789",
+      "timestamp": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
+```
+
+### حالات التذكرة
+- `open` - مفتوحة
+- `pending` - في الانتظار
+- `in_progress` - قيد العمل
+- `closed` - مغلقة
+- `cancelled` - ملغية
+
+### أولويات التذكرة
+- `low` - منخفضة
+- `medium` - متوسطة
+- `high` - عالية
+- `urgent` - عاجلة
+
+### فئات التذاكر
+- `technical` - تقنية
+- `general` - عامة
+- `billing` - فواتير
+- `feature` - ميزة جديدة
+- `bug` - خطأ
+
+## رموز الاستجابة
+
+### ✅ نجح العملية
+- **200 OK**: طلب ناجح
+- **201 Created**: تم إنشاء التذكرة بنجاح
+- **204 No Content**: تمت العملية بدون محتوى
+
+### ❌ فشل العملية
+- **400 Bad Request**: بيانات غير صحيحة
+- **401 Unauthorized**: غير مصرح
+- **403 Forbidden**: ممنوع الوصول
+- **404 Not Found**: التذكرة غير موجودة
+- **429 Too Many Requests**: تجاوز حد الطلبات
+
+## أمثلة متقدمة
+
+### فلترة متقدمة
+```javascript
+// جلب التذاكر المفتوحة عالية الأولوية
+const highPriorityTickets = await fetch('/api/tickets?status=open&priority=high', {
+  headers: { 'Authorization': 'Bearer YOUR_TOKEN' }
+});
+
+// جلب التذاكر لفترة محددة
+const recentTickets = await fetch('/api/tickets?date_from=2024-01-01&date_to=2024-01-31', {
+  headers: { 'Authorization': 'Bearer YOUR_TOKEN' }
+});
+```
+
+### تحديث متعدد
+```javascript
+// تحديث عدة تذاكر
+const updatePromises = ticketIds.map(id => 
+  fetch(`/api/tickets/${id}`, {
+    method: 'PATCH',
+    headers: {
+      'Authorization': 'Bearer YOUR_TOKEN',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ status: 'closed' })
+  })
+);
+
+await Promise.all(updatePromises);
+```

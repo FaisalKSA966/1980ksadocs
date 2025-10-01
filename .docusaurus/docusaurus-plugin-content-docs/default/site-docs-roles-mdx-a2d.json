@@ -1,0 +1,27 @@
+{
+  "id": "roles",
+  "title": "الأدوار والصلاحيات",
+  "description": "تعريف الأدوار داخل الخادم.",
+  "source": "@site/docs/roles.mdx",
+  "sourceDirName": ".",
+  "slug": "/roles",
+  "permalink": "/roles",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "الأدوار والصلاحيات",
+    "title": "الأدوار والصلاحيات",
+    "description": "تعريف الأدوار داخل الخادم."
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "البدء السريع",
+    "permalink": "/quick-start"
+  },
+  "next": {
+    "title": "نظرة عامة على البوت",
+    "permalink": "/bot/overview"
+  }
+}

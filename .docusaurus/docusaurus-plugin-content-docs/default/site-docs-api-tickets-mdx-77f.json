@@ -1,0 +1,25 @@
+{
+  "id": "api/tickets",
+  "title": "API التذاكر",
+  "description": "نقاط النهاية للتذاكر",
+  "source": "@site/docs/api/tickets.mdx",
+  "sourceDirName": "api",
+  "slug": "/api/tickets",
+  "permalink": "/api/tickets",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "API التذاكر"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "نظرة عامة على API",
+    "permalink": "/api/overview"
+  },
+  "next": {
+    "title": "إحصائيات",
+    "permalink": "/api/statistics"
+  }
+}

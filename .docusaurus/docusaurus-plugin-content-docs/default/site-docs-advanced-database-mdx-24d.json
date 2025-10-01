@@ -1,0 +1,25 @@
+{
+  "id": "advanced/database",
+  "title": "قاعدة البيانات",
+  "description": "نظام قاعدة البيانات المتقدم",
+  "source": "@site/docs/advanced/database.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/database",
+  "permalink": "/advanced/database",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "قاعدة البيانات"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "دليل المبرمجين",
+    "permalink": "/guides/developers"
+  },
+  "next": {
+    "title": "النشر الداخلي",
+    "permalink": "/advanced/deployment"
+  }
+}

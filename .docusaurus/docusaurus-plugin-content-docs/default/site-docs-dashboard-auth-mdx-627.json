@@ -1,0 +1,25 @@
+{
+  "id": "dashboard/auth",
+  "title": "المصادقة",
+  "description": "نظام المصادقة المتقدم",
+  "source": "@site/docs/dashboard/auth.mdx",
+  "sourceDirName": "dashboard",
+  "slug": "/dashboard/auth",
+  "permalink": "/dashboard/auth",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "المصادقة"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "نظرة عامة على لوحة الويب",
+    "permalink": "/dashboard/overview"
+  },
+  "next": {
+    "title": "المزايا",
+    "permalink": "/dashboard/features"
+  }
+}

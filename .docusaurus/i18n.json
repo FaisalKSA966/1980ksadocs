@@ -1,0 +1,17 @@
+{
+  "defaultLocale": "ar",
+  "locales": [
+    "ar"
+  ],
+  "path": "i18n",
+  "currentLocale": "ar",
+  "localeConfigs": {
+    "ar": {
+      "label": "العربية",
+      "direction": "rtl",
+      "htmlLang": "ar",
+      "calendar": "gregory",
+      "path": "ar"
+    }
+  }
+}

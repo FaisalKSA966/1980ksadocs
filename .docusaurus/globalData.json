@@ -1,0 +1,143 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "advanced/database",
+              "path": "/advanced/database",
+              "sidebar": "docs"
+            },
+            {
+              "id": "advanced/deployment",
+              "path": "/advanced/deployment",
+              "sidebar": "docs"
+            },
+            {
+              "id": "advanced/security",
+              "path": "/advanced/security",
+              "sidebar": "docs"
+            },
+            {
+              "id": "advanced/troubleshooting",
+              "path": "/advanced/troubleshooting",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/overview",
+              "path": "/api/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/statistics",
+              "path": "/api/statistics",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/sync",
+              "path": "/api/sync",
+              "sidebar": "docs"
+            },
+            {
+              "id": "api/tickets",
+              "path": "/api/tickets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "bot/commands",
+              "path": "/bot/commands",
+              "sidebar": "docs"
+            },
+            {
+              "id": "bot/configuration",
+              "path": "/bot/configuration",
+              "sidebar": "docs"
+            },
+            {
+              "id": "bot/interactions",
+              "path": "/bot/interactions",
+              "sidebar": "docs"
+            },
+            {
+              "id": "bot/overview",
+              "path": "/bot/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/auth",
+              "path": "/dashboard/auth",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/features",
+              "path": "/dashboard/features",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/overview",
+              "path": "/dashboard/overview",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dashboard/settings",
+              "path": "/dashboard/settings",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/admins",
+              "path": "/guides/admins",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/auditors",
+              "path": "/guides/auditors",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/developers",
+              "path": "/guides/developers",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guides/moderators",
+              "path": "/guides/moderators",
+              "sidebar": "docs"
+            },
+            {
+              "id": "introduction",
+              "path": "/introduction",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quick-start",
+              "path": "/quick-start",
+              "sidebar": "docs"
+            },
+            {
+              "id": "roles",
+              "path": "/roles",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/introduction",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

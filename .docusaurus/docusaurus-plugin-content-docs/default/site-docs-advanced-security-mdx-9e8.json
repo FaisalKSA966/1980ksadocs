@@ -1,0 +1,21 @@
+{
+  "id": "advanced/security",
+  "title": "الأمان",
+  "description": "نظام الأمان المتقدم",
+  "source": "@site/docs/advanced/security.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/security",
+  "permalink": "/advanced/security",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "الأمان"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "استكشاف الأخطاء",
+    "permalink": "/advanced/troubleshooting"
+  }
+}

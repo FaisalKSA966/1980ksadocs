@@ -1,0 +1,25 @@
+{
+  "id": "bot/commands",
+  "title": "الأوامر",
+  "description": "أوامر Slash Commands",
+  "source": "@site/docs/bot/commands.mdx",
+  "sourceDirName": "bot",
+  "slug": "/bot/commands",
+  "permalink": "/bot/commands",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "الأوامر"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "نظرة عامة على البوت",
+    "permalink": "/bot/overview"
+  },
+  "next": {
+    "title": "التفاعلات",
+    "permalink": "/bot/interactions"
+  }
+}

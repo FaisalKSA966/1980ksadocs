@@ -1,0 +1,23 @@
+{
+  "id": "introduction",
+  "title": "المقدمة",
+  "description": "نظرة عامة على نظام إدارة التذاكر في خادمنا الخاص.",
+  "source": "@site/docs/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/introduction",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "المقدمة",
+    "title": "المقدمة",
+    "description": "نظرة عامة على نظام إدارة التذاكر في خادمنا الخاص."
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "البدء السريع",
+    "permalink": "/quick-start"
+  }
+}

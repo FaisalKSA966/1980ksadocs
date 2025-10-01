@@ -1,0 +1,27 @@
+{
+  "id": "quick-start",
+  "title": "البدء السريع",
+  "description": "خطوات سريعة لطاقم الخادم.",
+  "source": "@site/docs/quick-start.mdx",
+  "sourceDirName": ".",
+  "slug": "/quick-start",
+  "permalink": "/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "البدء السريع",
+    "title": "البدء السريع",
+    "description": "خطوات سريعة لطاقم الخادم."
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "المقدمة",
+    "permalink": "/introduction"
+  },
+  "next": {
+    "title": "الأدوار والصلاحيات",
+    "permalink": "/roles"
+  }
+}

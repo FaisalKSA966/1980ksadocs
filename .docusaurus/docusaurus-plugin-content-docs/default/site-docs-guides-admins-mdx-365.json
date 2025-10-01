@@ -1,0 +1,25 @@
+{
+  "id": "guides/admins",
+  "title": "دليل الإداريين",
+  "description": "دليل شامل للإداريين",
+  "source": "@site/docs/guides/admins.mdx",
+  "sourceDirName": "guides",
+  "slug": "/guides/admins",
+  "permalink": "/guides/admins",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "دليل الإداريين"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "المزامنة",
+    "permalink": "/api/sync"
+  },
+  "next": {
+    "title": "دليل الرقابيين",
+    "permalink": "/guides/moderators"
+  }
+}

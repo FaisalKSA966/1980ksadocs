@@ -1,0 +1,25 @@
+{
+  "id": "advanced/deployment",
+  "title": "النشر الداخلي",
+  "description": "عملية النشر الداخلي",
+  "source": "@site/docs/advanced/deployment.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/deployment",
+  "permalink": "/advanced/deployment",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "النشر الداخلي"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "قاعدة البيانات",
+    "permalink": "/advanced/database"
+  },
+  "next": {
+    "title": "استكشاف الأخطاء",
+    "permalink": "/advanced/troubleshooting"
+  }
+}

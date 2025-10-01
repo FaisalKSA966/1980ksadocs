@@ -1,0 +1,25 @@
+{
+  "id": "bot/configuration",
+  "title": "الضبط",
+  "description": "- قنوات التذاكر، أتمتة التسميات، حدود الوقت، إشعارات خاصة بالأدوار.",
+  "source": "@site/docs/bot/configuration.mdx",
+  "sourceDirName": "bot",
+  "slug": "/bot/configuration",
+  "permalink": "/bot/configuration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "الضبط"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "التفاعلات",
+    "permalink": "/bot/interactions"
+  },
+  "next": {
+    "title": "نظرة عامة على لوحة الويب",
+    "permalink": "/dashboard/overview"
+  }
+}

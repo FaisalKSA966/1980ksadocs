@@ -1,0 +1,25 @@
+{
+  "id": "dashboard/overview",
+  "title": "نظرة عامة على لوحة الويب",
+  "description": "لوحة التحكم المتقدمة",
+  "source": "@site/docs/dashboard/overview.mdx",
+  "sourceDirName": "dashboard",
+  "slug": "/dashboard/overview",
+  "permalink": "/dashboard/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نظرة عامة على لوحة الويب"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "الضبط",
+    "permalink": "/bot/configuration"
+  },
+  "next": {
+    "title": "المصادقة",
+    "permalink": "/dashboard/auth"
+  }
+}

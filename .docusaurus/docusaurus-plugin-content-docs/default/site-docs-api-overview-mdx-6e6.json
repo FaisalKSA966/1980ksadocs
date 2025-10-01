@@ -1,0 +1,25 @@
+{
+  "id": "api/overview",
+  "title": "نظرة عامة على API",
+  "description": "واجهة البرمجة المتقدمة",
+  "source": "@site/docs/api/overview.mdx",
+  "sourceDirName": "api",
+  "slug": "/api/overview",
+  "permalink": "/api/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نظرة عامة على API"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "الإعدادات",
+    "permalink": "/dashboard/settings"
+  },
+  "next": {
+    "title": "API التذاكر",
+    "permalink": "/api/tickets"
+  }
+}

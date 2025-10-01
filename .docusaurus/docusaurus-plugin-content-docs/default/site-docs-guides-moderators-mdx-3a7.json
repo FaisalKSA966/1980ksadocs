@@ -1,0 +1,25 @@
+{
+  "id": "guides/moderators",
+  "title": "دليل الرقابيين",
+  "description": "دليل شامل للرقابيين",
+  "source": "@site/docs/guides/moderators.mdx",
+  "sourceDirName": "guides",
+  "slug": "/guides/moderators",
+  "permalink": "/guides/moderators",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "دليل الرقابيين"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "دليل الإداريين",
+    "permalink": "/guides/admins"
+  },
+  "next": {
+    "title": "دليل المسؤولين/المدققين",
+    "permalink": "/guides/auditors"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "advanced/troubleshooting",
+  "title": "استكشاف الأخطاء",
+  "description": "دليل استكشاف الأخطاء",
+  "source": "@site/docs/advanced/troubleshooting.mdx",
+  "sourceDirName": "advanced",
+  "slug": "/advanced/troubleshooting",
+  "permalink": "/advanced/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "استكشاف الأخطاء"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "النشر الداخلي",
+    "permalink": "/advanced/deployment"
+  },
+  "next": {
+    "title": "الأمان",
+    "permalink": "/advanced/security"
+  }
+}

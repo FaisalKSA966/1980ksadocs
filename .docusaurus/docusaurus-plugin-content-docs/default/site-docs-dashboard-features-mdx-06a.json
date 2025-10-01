@@ -1,0 +1,25 @@
+{
+  "id": "dashboard/features",
+  "title": "المزايا",
+  "description": "المزايا المتقدمة",
+  "source": "@site/docs/dashboard/features.mdx",
+  "sourceDirName": "dashboard",
+  "slug": "/dashboard/features",
+  "permalink": "/dashboard/features",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "المزايا"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "المصادقة",
+    "permalink": "/dashboard/auth"
+  },
+  "next": {
+    "title": "الإعدادات",
+    "permalink": "/dashboard/settings"
+  }
+}

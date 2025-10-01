@@ -1,0 +1,25 @@
+{
+  "id": "dashboard/settings",
+  "title": "الإعدادات",
+  "description": "- التحكم في السياسات، الحدود، وسير العمل.",
+  "source": "@site/docs/dashboard/settings.mdx",
+  "sourceDirName": "dashboard",
+  "slug": "/dashboard/settings",
+  "permalink": "/dashboard/settings",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "الإعدادات"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "المزايا",
+    "permalink": "/dashboard/features"
+  },
+  "next": {
+    "title": "نظرة عامة على API",
+    "permalink": "/api/overview"
+  }
+}

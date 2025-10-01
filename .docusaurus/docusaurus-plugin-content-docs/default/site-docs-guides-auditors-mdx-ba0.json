@@ -1,0 +1,25 @@
+{
+  "id": "guides/auditors",
+  "title": "دليل المسؤولين/المدققين",
+  "description": "دليل شامل للمسؤولين والمدققين",
+  "source": "@site/docs/guides/auditors.mdx",
+  "sourceDirName": "guides",
+  "slug": "/guides/auditors",
+  "permalink": "/guides/auditors",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "دليل المسؤولين/المدققين"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "دليل الرقابيين",
+    "permalink": "/guides/moderators"
+  },
+  "next": {
+    "title": "دليل المبرمجين",
+    "permalink": "/guides/developers"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "api/sync",
+  "title": "المزامنة",
+  "description": "نظام المزامنة المتقدم",
+  "source": "@site/docs/api/sync.mdx",
+  "sourceDirName": "api",
+  "slug": "/api/sync",
+  "permalink": "/api/sync",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "المزامنة"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "إحصائيات",
+    "permalink": "/api/statistics"
+  },
+  "next": {
+    "title": "دليل الإداريين",
+    "permalink": "/guides/admins"
+  }
+}

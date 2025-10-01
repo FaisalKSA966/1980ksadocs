@@ -1,0 +1,25 @@
+{
+  "id": "bot/overview",
+  "title": "نظرة عامة على البوت",
+  "description": "نظام البوت المتكامل",
+  "source": "@site/docs/bot/overview.mdx",
+  "sourceDirName": "bot",
+  "slug": "/bot/overview",
+  "permalink": "/bot/overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "نظرة عامة على البوت"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "الأدوار والصلاحيات",
+    "permalink": "/roles"
+  },
+  "next": {
+    "title": "الأوامر",
+    "permalink": "/bot/commands"
+  }
+}

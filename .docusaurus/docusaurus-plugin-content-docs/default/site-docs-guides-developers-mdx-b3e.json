@@ -1,0 +1,25 @@
+{
+  "id": "guides/developers",
+  "title": "دليل المبرمجين",
+  "description": "دليل شامل للمبرمجين",
+  "source": "@site/docs/guides/developers.mdx",
+  "sourceDirName": "guides",
+  "slug": "/guides/developers",
+  "permalink": "/guides/developers",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "دليل المبرمجين"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "دليل المسؤولين/المدققين",
+    "permalink": "/guides/auditors"
+  },
+  "next": {
+    "title": "قاعدة البيانات",
+    "permalink": "/advanced/database"
+  }
+}

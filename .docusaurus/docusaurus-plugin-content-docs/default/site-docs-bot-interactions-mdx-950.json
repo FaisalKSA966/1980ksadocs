@@ -1,0 +1,25 @@
+{
+  "id": "bot/interactions",
+  "title": "التفاعلات",
+  "description": "نظام الأزرار التفاعلية",
+  "source": "@site/docs/bot/interactions.mdx",
+  "sourceDirName": "bot",
+  "slug": "/bot/interactions",
+  "permalink": "/bot/interactions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "التفاعلات"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "الأوامر",
+    "permalink": "/bot/commands"
+  },
+  "next": {
+    "title": "الضبط",
+    "permalink": "/bot/configuration"
+  }
+}
